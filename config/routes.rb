@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
 
   get "/secrets/show", to: "secrets#show"
-
+  
+  root to: "sessions#new"
 
 end
